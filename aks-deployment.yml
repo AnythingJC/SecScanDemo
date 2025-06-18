@@ -17,11 +17,11 @@ spec:
         aadpodidbinding: cnappdemo
         app: python-server-app
         azure.workload.identity/use: "true"
-    spec:
-      containers:
-        - name: python-server-app
-          image: pcgithub.azurecr.io/pythonserver:fcd44ccc289fea9a65980d53db5a8972247b124a
-          ports:
-            - containerPort: 8080
-              protocol: TCP
-          imagePullPolicy: Always
+   # spec:
+     # containers:
+     #   - name: python-server-app
+      #    image: pcgithub.azurecr.io/pythonserver:fcd44ccc289fea9a65980d53db5a8972247b124a
+      #    ports:
+       #     - containerPort: 8080
+       #       protocol: TCP
+        #  imagePullPolicy: Always
